@@ -34,6 +34,9 @@ def adivinhar_numero():
             break
 
 # Chama a função do jogo
-()
+adivinhar_numero()
 
 # Exibe as tentativas de cada jogador
+print("\nNúmero de tentativas de cada jogador:")
+for jogador, tentativas in tentativas_por_jogador.items():
+    print(f"{jogador}: {tentativas} tentativas")
